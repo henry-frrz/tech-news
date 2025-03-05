@@ -1,0 +1,70 @@
+:root {
+  --primary-color-100: #60a5fa;
+  --primary-color-200: #1d4ed8;
+
+  --secondary-color-100: #1e293b;
+  --secondary-color-200: #0f172a;
+
+  --tertiary-color-100: #f1f5f9;
+  --tertiary-color-200: #cbd5e1;
+}
+
+:root {
+  /* Propriedades de Estilo Visual */
+  --primary-color-100: #60a5fa;
+  --primary-color-200: #1d4ed8;
+
+  --secondary-color-100: #1e293b;
+  --secondary-color-200: #0f172a;
+
+  --tertiary-color-100: #f1f5f9;
+  --tertiary-color-200: #cbd5e1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Archivo', sans-serif;
+  color: var(--tertiary-color-200);
+}
+
+body {
+  background-color: var(--secondary-color-200);
+}
+
+main {
+  display: grid;
+  gap: 5rem;
+  max-width: 1280px;
+  padding: 2.5rem 2rem 5rem 2rem;
+  margin: auto;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a,
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
