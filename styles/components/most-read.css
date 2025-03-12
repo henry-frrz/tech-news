@@ -1,0 +1,21 @@
+/* SECTION */
+.most-read__news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* CARD */
+.most-read__card {
+  position: relative;
+  display: grid;
+  gap: 0.5rem;
+  height: 100%;
+}
+
+.most-read__card-tag {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 1;
+}

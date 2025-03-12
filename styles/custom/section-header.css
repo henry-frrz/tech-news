@@ -1,0 +1,22 @@
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--secondary-color-100);
+}
+
+.section-header__title {
+  font-size: 1rem;
+}
+
+.section-header__see-all-button {
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.1s;
+
+  &:hover {
+    color: var(--primary-color-100);
+  }
+}
