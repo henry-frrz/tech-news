@@ -1,2 +1,3 @@
 @import url('./global.css');
-@import url("./components/index.css");
+@import url('./custom/index.css');
+@import url('./components/index.css');

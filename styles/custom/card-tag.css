@@ -1,0 +1,9 @@
+.card-tag {
+  background-color: var(--primary-color-200);
+  font-size: 0.625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  justify-self: flex-start;
+}
