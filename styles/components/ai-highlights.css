@@ -1,0 +1,27 @@
+/* SECTION */
+.ai-highlights-and-saw-this {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.ai-highlights__news {
+  display: grid;
+  gap: 2rem;
+}
+
+/* CARD */
+.ai-highlights__card {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1rem;
+}
+
+.ai-highlights__card-tag {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.ai-highlights__card-title {
+  margin-bottom: 0.25rem;
+}
