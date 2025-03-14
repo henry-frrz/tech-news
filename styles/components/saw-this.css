@@ -1,0 +1,35 @@
+/* SECTION */
+#saw-this {
+  display: grid;
+  gap: 2rem;
+}
+
+.saw-this__news {
+  display: grid;
+  gap: 2rem;
+}
+
+/* ADS */
+.saw-this__ads-container {
+  position: relative;
+
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+.saw-this__ads {
+  width: 100%;
+  height: 100%;
+}
+
+/* CARD */
+.saw-this__card {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 1rem;
+}
+
+.saw-this__card-tag {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
